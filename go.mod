@@ -7,8 +7,8 @@ require (
 	github.com/confluentinc/confluent-kafka-go v1.8.2
 	github.com/deepmap/oapi-codegen v1.9.1
 	github.com/didip/tollbooth/v6 v6.1.1
-	github.com/elastic/go-elasticsearch/v7 v7.16.0
-	github.com/getkin/kin-openapi v0.88.0
+	github.com/elastic/go-elasticsearch/v7 v7.17.0
+	github.com/getkin/kin-openapi v0.89.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/go-redis/redis/v8 v8.11.4
@@ -17,25 +17,25 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/vault/api v1.3.1
-	github.com/jackc/pgconn v1.10.1
-	github.com/jackc/pgx/v4 v4.14.1
+	github.com/jackc/pgconn v1.11.0
+	github.com/jackc/pgx/v4 v4.15.0
 	github.com/joho/godotenv v1.4.0
-	github.com/mercari/go-circuitbreaker v0.0.1
+	github.com/mercari/go-circuitbreaker v0.0.2
 	github.com/ory/dockertest/v3 v3.8.1
 	github.com/streadway/amqp v1.0.0
 	go.opentelemetry.io/contrib/instrumentation/github.com/gorilla/mux/otelmux v0.28.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.28.0
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.27.0
-	go.opentelemetry.io/otel v1.3.0
-	go.opentelemetry.io/otel/exporters/jaeger v1.3.0
+	go.opentelemetry.io/otel v1.4.1
+	go.opentelemetry.io/otel/exporters/jaeger v1.4.0
 	go.opentelemetry.io/otel/exporters/prometheus v0.26.0
-	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.3.0
+	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.4.1
 	go.opentelemetry.io/otel/metric v0.26.0
-	go.opentelemetry.io/otel/sdk v1.3.0
+	go.opentelemetry.io/otel/sdk v1.4.1
 	go.opentelemetry.io/otel/sdk/export/metric v0.26.0
 	go.opentelemetry.io/otel/sdk/metric v0.26.0
-	go.opentelemetry.io/otel/trace v1.3.0
-	go.uber.org/zap v1.20.0
+	go.opentelemetry.io/otel/trace v1.4.1
+	go.uber.org/zap v1.21.0
 	goa.design/model v1.7.6
 )
 
@@ -45,6 +45,7 @@ require (
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/armon/go-metrics v0.3.9 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
+	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v3 v3.1.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.2 // indirect
@@ -55,14 +56,14 @@ require (
 	github.com/dimfeld/httppath v0.0.0-20170720192232-ee938bf73598 // indirect
 	github.com/dimfeld/httptreemux/v5 v5.2.2 // indirect
 	github.com/docker/cli v20.10.11+incompatible // indirect
+	github.com/docker/distribution v2.8.0+incompatible // indirect
 	github.com/docker/docker v20.10.9+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.4.0 // indirect
-	github.com/facebookgo/clock v0.0.0-20150410010913-600d898af40a // indirect
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/felixge/httpsnoop v1.0.2 // indirect
-	github.com/go-logr/logr v1.2.1 // indirect
-	github.com/go-logr/stdr v1.2.0 // indirect
+	github.com/go-logr/logr v1.2.2 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/swag v0.19.7 // indirect
 	github.com/go-pkgz/expirable-cache v0.0.3 // indirect
@@ -95,8 +96,8 @@ require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgproto3/v2 v2.2.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20200714003250-2b9c44734f2b // indirect
-	github.com/jackc/pgtype v1.9.1 // indirect
-	github.com/jackc/puddle v1.2.0 // indirect
+	github.com/jackc/pgtype v1.10.0 // indirect
+	github.com/jackc/puddle v1.2.1 // indirect
 	github.com/lib/pq v1.10.2 // indirect
 	github.com/mailru/easyjson v0.7.1 // indirect
 	github.com/manveru/faker v0.0.0-20171103152722-9fbc68a78c4d // indirect
